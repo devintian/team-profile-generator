@@ -1,0 +1,24 @@
+<div class="ui centered card">
+    <div class="content" id="name-section">
+        <h1 class="header" id="header"><%- employee.getName() %></h1>
+        <h1 class="header"><i class="graduation cap icon"></i><%- employee.getRole() %></h1>
+    </div>
+    <div class="content" id="card-body">
+        <table class="ui unstackable table">
+            <tbody>
+                <tr>
+                    <td>ID:</td>
+                    <td><%- employee.getId() %></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><%- employee.getEmail() %></td>
+                </tr>
+                <tr>
+                    <td>School:</td>
+                    <td><%- employee.getSchool() %></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div> 
